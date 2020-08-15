@@ -1,0 +1,8 @@
+alias ..="cd .."
+alias ll="ls -l"
+alias la="ls -la"
+alias vim="nvim"
+alias conf="vim ~/.zshrc"
+alias fresh="source ~/.zshrc"
+alias alia="vim ~/.aliases"
+alias auto="cd ~/Projects/games/autoimmune"

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+hour=$(date +%H)
+if [ "$hour" -ge 0 ] && [ "$hour" -le 5 ]; then
+	xwallpaper --center ~/.config/Wallpaper/nighttime.jpg
+elif [ "$hour" -ge 6 ] && [ "$hour" -le 11 ]; then
+	xwallpaper --center ~/.config/Wallpaper/firewatch.jpg
+elif [ "$hour" -ge 12 ] && [ "$hour" -le 17 ]; then
+	xwallpaper --center ~/.config/Wallpaper/mountains.jpg
+else
+	xwallpaper --center ~/.config/Wallpaper/highway2.jpg
+fi

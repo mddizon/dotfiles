@@ -83,7 +83,8 @@ colors:
 # Visual Bell
 
 background_opacity: 0.91
-dynamic_title: true
+window:
+  dynamic_title: true
 
 selection:
   save_to_clipboard: true
